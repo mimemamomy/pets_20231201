@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ad search</title>
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../petshop/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../petshop/index.html"><img src="../image/logo.jpg" class="w-25 rounded-3" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../petshop/index.html">Главная</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../petshop/private_office.html">Личный кабинет</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../petshop/registration.html">Регистрация</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../petshop/add_notices.html">Добавить объявление</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../petshop/ad_search.htmls">Поиск по объявлениям</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" list="pets" placeholder="Поиск" aria-label="Search">
+              <button class="btn btn-success" onclick="">Поиск</button>
+              <datalist id="pets">
+                <option value="Кошка">
+                <option value="Собака">
+                <option value="Корова">
+                <option value="Крокодил">
+                <option value="Сова">
+              </datalist>
+            </form>
+          </div>
+        </div>
+      </nav>
+  </header>
+  
+<main>
+    <h1>Поиск по объявлениям</h1>
+    <form id="form-select" class="col-xs-12 col-md-6 col-lg-4">
+    <select class="form-select mb-4" aria-label="район">
+      <option selected>Район</option>
+      <option value="1">Адмиралтейский район</option>
+      <option value="2">Василеостровский район</option>
+      <option value="3">Выборгский район</option>
+      <option value="4">Калинский район</option>
+      <option value="5">Кировский район</option>
+      <option value="6">Колпинский район</option>
+      <option value="7">Красногвардейский район</option>
+      <option value="8">Красносельский район</option>
+      <option value="9">Кронштадтский район</option>
+      <option value="10">Курортный район</option>
+      <option value="11">Московский район</option>
+      <option value="12">Невский район</option>
+      <option value="13">Петроградский район</option>
+      <option value="14">Петродворцовый район</option>
+      <option value="15">Приморский район</option>
+      <option value="16">пушкинский район</option>
+      <option value="17">Фрунзенский район</option>
+      <option value="18">Центральный район</option>
+    </select>
+
+    <select class="form-select" aria-label="вид животного">
+      <option selected>Вид животного</option>
+      <option value="1">Кот</option>
+      <option value="2">Собака</option>
+      <option value="3">Крыса</option>
+      <option value="4">Выдра</option>
+      <option value="5">Кролик</option>
+      <option value="6">Хомяк</option>
+      <option value="7">Морская свинка</option>
+      <option value="8">Шиншилла</option>
+      <option value="9">Змея</option>
+      <option value="10">Черепаха</option>
+      <option value="11">Паук</option>
+      <option value="12">Птица</option>
+      <option value="13">Капибара</option>
+      <option value="14">Опоссум</option>
+	  </select>
+    <button type="button" class="btn btn-success" id="btn_serch">Поиск</button>
+  </form>
+</main>
+<footer class="border-bottom">
+  <p class="text-white ps-3">GET PET BACK © Copyright, 2022</p>
+  <p class="text-white ps-3">Все права защищены</p>
+</footer>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+      </body>
+    </html>

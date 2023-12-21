@@ -1,0 +1,155 @@
+
+.card{
+    background-color: #4e962a;
+    margin-bottom: 20px;
+}
+
+.col {
+    margin: 5px;
+}
+ 
+#myAdvert{
+    margin-top: 100px;
+}
+.main_text{
+    text-align:center;
+}
+
+.card-img-top{
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+
+.d-block{
+    padding: 40px;
+    filter: brightness(60%)
+}
+.carousel{
+    width: 80vw !important;
+    margin: 0 auto;
+
+}
+.main-main_text{
+    text-align: center; 
+}
+
+.border-bottom{
+  background-color:	#aeafb5 !important;  
+}
+
+.border-bottom2{
+  background-color:	#f9c985;  
+}
+
+.individua_card{
+    margin-top: 200px;
+    display: flex;
+    margin-left: 580px;
+
+}
+
+form{
+    border: 5px solid green;
+    border-radius: 10px;
+    /* width: 50%; */
+    margin:  0 auto;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 15px;
+    background-color: #4e962a;
+}
+
+main{
+    min-height: 80vh;
+}
+
+
+.private_card{
+ align-items: center;
+ width: fit-content;
+ margin: 0 auto;
+ margin-top: 50px;
+}
+
+.cardholder{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+#edit_delete_button{
+    border: 0;
+    background: none;
+    padding: 10px;
+}
+
+.main_btn{
+    position: relative; 
+}
+#btn_red{
+    width: 150px;
+    height: 60px; 
+    padding: 0%;
+    color: red;
+    position: absolute;
+    right: 0;
+    top: 10;  
+}
+
+.search{
+    margin-top: 80px;
+}
+
+.list-group{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.carousel{
+    margin: 0 auto;
+}
+
+.row{
+    margin: 0 auto; 
+}
+
+.d-flex{
+    width: auto;
+
+}
+
+#conteiner{
+    width: 40%;
+   
+
+}
+
+/* #form-select{
+width: 50%;
+margin-top: 30px;
+} */
+
+#btn_serch{
+    margin-top: 10px;
+}
+
+.container-fluid{
+    align-items: baseline !important;
+}
+
+/* body{
+    background: url('../image/fon.jpg');
+} */
+
+.catcat {
+    width: 500px;
+    height: 300px;
+}
